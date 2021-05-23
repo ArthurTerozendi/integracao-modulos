@@ -1,0 +1,28 @@
+{
+  "name": "integracao-modulos",
+  "version": "1.0.0",
+  "description": "Integração de Módulos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurTerozendi/integracao-modulos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurTerozendi/integracao-modulos/issues"
+  },
+  "homepage": "https://github.com/ArthurTerozendi/integracao-modulos#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
